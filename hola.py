@@ -14,7 +14,15 @@
 # print ("hola",nombre, "y su edad es",edad)
 
 
+# n1=int(input("ingrese un numero "))
+# n2=int(input("ingrese un numero "))
+
+# print("el resultado de la multiplicacion es:", n1*n2)
+
+# promedio de 3 numeros
+
 n1=int(input("ingrese un numero "))
 n2=int(input("ingrese un numero "))
+n3=int(input("ingrese un numero "))
 
-print("el resultado de la multiplicacion es," (n1*n2))
+print("el promedio de los numeros es:", (n1+n2+n3)/3)
