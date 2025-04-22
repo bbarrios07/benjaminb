@@ -50,3 +50,72 @@
 #     print("usted es un adulto")
 # else :
 #     print("usted es un viejito")
+
+
+
+# for i in range (3):
+#    print ("esta es la tabla del ", i)
+
+
+# cant=input(input("Ingrese la cant de repeticiones "))
+
+
+# for i in range (cant):
+#     print ("repeticion ", i+1)
+
+
+# nombre=input("ingrese su nombre")
+# edad=input("ingrese su edad")
+
+# print("hola", nombre, "su edad es",edad)
+# print(f"hola {nombre} su edad es {edad}")
+
+# # para convertir variable en numero
+# num=int(input("ingrese un numero"))
+
+# for i in range(11):
+#     print(i, "x", num, "=",i*num)
+
+# for i in range(1, 11):
+#     for j in range(1, 11):
+#      print(i,"x", j, "=",i*j)
+
+# cant=int(input("ingrese la cantidad de notas "))
+# total=0
+# notasAzules=0
+# for i in range(cant):
+#     print("ingrese la nota ", i+1)
+#     nota=float(input())
+#     total=total+nota
+#     if nota>=4:
+#         notasAzules=notasAzules+1
+# prom=total/cant
+
+# print(f"su promedio es {prom}")    
+# print(f"la cantidad de notas sobre 4 fue {notasAzules}")
+
+
+# if prom>=4:
+#     print("el alumno aprovo") 
+# else:
+#     print("el alumno reprobo")
+
+
+
+clave=3344
+
+# password=int(input("ingrese la contraseña :"))
+
+# if password==clave:
+#     print("bienvenido al sistema")
+# else:
+#     print("ERROR, clave invalida")
+
+
+for i in range (3):
+  password=int(input("ingrese la contraseña :"))
+  if password==clave:
+    print("bienvenido al sistema")
+    break
+else:
+    print("ERROR, clave invalida")
