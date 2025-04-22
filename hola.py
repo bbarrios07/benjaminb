@@ -41,12 +41,12 @@
 # else:
 #     print("usted es menor de edad")
 
-edad=int(input("ingrese su edad: "))
-if edad<12:
-    print("usted es un niño")
-elif edad>=12 and edad<18:
-    print("usted es un adolescente")
-elif  edad>=18 and edad<65:
-    print("usted es un adulto")
-else :
-    print("usted es un viejito")
+# edad=int(input("ingrese su edad: "))
+# if edad<12:
+#     print("usted es un niño")
+# elif edad>=12 and edad<18:
+#     print("usted es un adolescente")
+# elif  edad>=18 and edad<65:
+#     print("usted es un adulto")
+# else :
+#     print("usted es un viejito")
