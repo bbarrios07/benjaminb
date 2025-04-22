@@ -102,7 +102,7 @@
 
 
 
-clave=3344
+# clave=3344
 
 # password=int(input("ingrese la contraseña :"))
 
@@ -112,10 +112,25 @@ clave=3344
 #     print("ERROR, clave invalida")
 
 
-for i in range (3):
-  password=int(input("ingrese la contraseña :"))
-  if password==clave:
-    print("bienvenido al sistema")
-    break
-else:
-    print("ERROR, clave invalida")
+# for i in range (3):
+#   password=int(input("ingrese la contraseña :"))
+#   if password==clave:
+#     print("bienvenido al sistema")
+#     break
+# else:
+#     print("ERROR, clave invalida")
+
+total=0
+for i in range(cant):
+    print(" que llevara?"
+          "aceituna")
+
+
+if opcion == 1:
+    print("llevate una aceituna")
+elif opcion == 2:
+    print("llevate una sandia")
+elif opcion == 3:
+    print("llevate una mandarina")
+elif opcion == 4:  
+    print("llevate un completo")
