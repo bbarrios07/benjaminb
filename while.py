@@ -38,17 +38,22 @@
 #     print("sistema bloqueado")
  
 
-# num=1
+num=1
 
-# while num!=0:
-#     num=int(input("ingrese un numero (0 para salir) "))
-#     if num % 2==0:
-#         print(f"el numero {num} es par")
-#     else:
-#          print(f"el numero {num} es impar")   
+while num!=0:
+    num=int(input("ingrese un numero (0 para salir) "))
+    if num % 2==0:
+        print(f"el numero {num} es par")
+    else:
+         print(f"el numero {num} es impar")   
 
 
-import random
-randy=random.randint(1,10)
-print(randy)
+# import random
+# randy=random.randint(1,10)
+# print(randy)
+
+
+num=int(input("ingrese un numero: "))
+
+
 
