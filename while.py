@@ -38,22 +38,47 @@
 #     print("sistema bloqueado")
  
 
-num=1
+# num=1
 
-while num!=0:
-    num=int(input("ingrese un numero (0 para salir) "))
-    if num % 2==0:
-        print(f"el numero {num} es par")
-    else:
-         print(f"el numero {num} es impar")   
+# while num!=0:
+#     num=int(input("ingrese un numero (0 para salir) "))
+#     if num % 2==0:
+#         print(f"el numero {num} es par")
+#     else:
+#          print(f"el numero {num} es impar")   
 
 
 # import random
 # randy=random.randint(1,10)
 # print(randy)
 
+# import random
+# numAzar=random.randint(1,30)
+# print (numAzar)
+# if numAzar>=20:
+#     print("puede pasar")
+# else:
+#     print("le falta puntaje")
 
-num=int(input("ingrese un numero: "))
 
-
-
+# import random
+# numAzar=random.randint(1,50)
+# num=0
+# num=int(input("ingrese un numero "))
+# while num!=numAzar:
+#  if num>numAzar:
+#     print("el numero a adivinar es menor")
+#     num=int(input("ingrese otro numero "))
+#  elif num<numAzar:
+#     print("el numero a adivinar es mayor")
+#     num=int(input("ingrese otro numero "))
+ 
+# if num==numAzar:
+#   print("felicidades pinche puto")
+import random
+numAzar=random.randint(1,6)
+barril=int(input("ingrese numero del barril: "))
+if barril!=numAzar:
+    print("fogueo")
+    barril=int(input("ingrese numero del barril: "))
+print("¡BANG!")     
