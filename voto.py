@@ -21,3 +21,4 @@ elif kaiser==nose:
     print("es un empate")
 else:
     print("gano nose")
+

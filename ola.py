@@ -1,3 +1,4 @@
+
 palabra=input("ingrese una palabra ")
 
 caract=0

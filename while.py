@@ -75,10 +75,24 @@
  
 # if num==numAzar:
 #   print("felicidades pinche puto")
+
+# ----------------------------------------------------------
+# import random
+# numAzar=random.randint(1,6)
+# barril=int(input("ingrese numero del barril: "))
+# while barril!=numAzar:
+#     print("fogueo")
+#     barril=int(input("ingrese numero del barril: "))
+
+# print("¡BANG!")     
+
+# -----------------------------------------------------------------
 import random
 numAzar=random.randint(1,6)
 barril=int(input("ingrese numero del barril: "))
-if barril!=numAzar:
-    print("fogueo")
+while barril!=numAzar:
+    print("Hola Mundo")
+    
     barril=int(input("ingrese numero del barril: "))
-print("¡BANG!")     
+
+print("¡ADIOS MUNDO!")     
