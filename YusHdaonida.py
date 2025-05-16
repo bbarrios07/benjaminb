@@ -1,6 +1,3 @@
-
-
-
 def suma():
     n1=int(input("ingrese un numero: "))
     n2=int(input("ingrese otro numero: "))
@@ -23,32 +20,35 @@ def divicion():
 
 def calcu():
     while True:
-        op=int(input('''seleccione su opcion
-                    1.- Suma
-                    2.- Resta
-                    3.- Multiplicacion
-                    4.- Divicion
-                    5.- Salir
-                    '''))
+        try:
+            op=int(input('''seleccione su opcion
+                        1.- Suma
+                        2.- Resta
+                        3.- Multiplicacion
+                        4.- Divicion
+                        5.- Salir
+                        '''))
 
 
-        match op:
-            case 1:
-                print("Suma")
-                suma()
-            case 2:
-                print ("Resta")
-                resta()
-            case 3:
-                print ("Multiplicacion")
-                multiplicacion()
-            case 4:
-                print("Divicion")
+            match op:
+                case 1:
+                    print("Suma")
+                    suma()
+                case 2:
+                    print ("Resta")
+                    resta()
+                case 3:
+                    print ("Multiplicacion")
+                    multiplicacion()
+                case 4:
+                    print("Divicion")
 
-                divicion()
-            case 5:
-                print("nos vimos giles")
-                break
-            case _:
-                print("Opcion Invalida")
+                    divicion()
+                case 5:
+                    print("nos vimos giles")
+                    break
+                case _:
+                    print("Opcion Invalida")
+        except Exception:
+            print("solo numeros enteros son permitidos")            
 calcu()
